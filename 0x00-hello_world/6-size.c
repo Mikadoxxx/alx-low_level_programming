@@ -1,19 +1,23 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
- * main - print the size of various types
+ *  main - print the size of different types in the operator
  *
- * Return: 0
+ *  Return: Always 0 (Success)
+ *
  */
 int main(void)
 {
-	int intType;
-	float floatType;
-	double doubleType;
-	char charType;
-	sizeof(evaluates) : the size of a variable
-		printf("Size of int: %zu bytes\n", sizeof(intType));
-		printf("Size of float: %zu bytes\n", sizeof(floatType));
-		printf("Size of double: %zu bytes\n", sizeof(doubleType));
-		printf("Size of char: %zu byte\n", sizeof(charType));
-	return (0);
+		int a;
+		long int b;
+		long long int c;
+		char d;
+		float f;
+
+		printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
+		printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
+		printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
+		printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+		printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
+		return (0);
 }
