@@ -1,13 +1,5 @@
-#include <stdio.h>
+#ifndef MAIN_H
+#define MAIN_H
+int _putchar(char c)
 
-/**
- * main - function definition
- *
- * Return : 0
- */
-
-int main(void)
-{
-	int _putchar(int character);
-	return : (0);
-}
+#endif
